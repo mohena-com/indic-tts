@@ -1,0 +1,28 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# Environment / secrets
+.env
+.env.*
+
+# Large TTS models / voices
+models/*
+voices/*
+
+# Local input/output
+input/*
+output/*
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
